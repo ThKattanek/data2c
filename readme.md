@@ -1,5 +1,10 @@
-Aufruf: data2c QUELLDATEI... [ZIELDATEI]... [PUFFERNAME]... [OPTION]...
-Wandelt die Quelldatei in eine C Headerdatei um.
+data2c
+------
 
---help          diese Hilfe anzeigen und beenden
---version       Versionsinformation anzeigen und beenden
+Aufruf: data2c QUELLDATEI... [ZIELDATEI]... [PUFFERNAME]... [OPTION]...
+
+**Wandelt die Quelldatei in eine C Headerdatei um.**
+
+---
+
+Kompilieren mit "**make**"
