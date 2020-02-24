@@ -1,6 +1,9 @@
 CC=g++
 LD=g++
 
+install: all
+	mv data2c /usr/local/bin
+
 all: data2c
 
 data2c: main.o
