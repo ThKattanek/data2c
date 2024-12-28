@@ -138,7 +138,6 @@ int main(int argc, char *argv[])
         break;
     }
 
-    long res;
     long length = 0;
     char str_out[256];
 
@@ -161,7 +160,7 @@ int main(int argc, char *argv[])
     }
 
     d_file << "};" << endl;
-    sprintf(str_out,"%d",length);
+    sprintf(str_out,"%d",(int)length);
     d_file << "const int " << puffer_name << "_length = " << str_out << ";";
 
     fclose(s_file);
